@@ -1,1 +1,6 @@
-# find if the given number is a palindrome or not?
+a=int(input())
+a=str(a)
+if a==a[::-1]:
+    print("palindrome")
+else:
+    print("not palindrome")
